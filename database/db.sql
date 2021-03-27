@@ -1,4 +1,4 @@
-CREATE DATEBASE database_links;
+CREATE DATABASE database_links;
 
 USE database_links;
 
@@ -8,7 +8,7 @@ CREATE TABLE users(
     username VARCHAR(16) NOT NULL,
     password VARCHAR(60) NOT NULL,
     fullname VARCHAR(100) NOT NULL
-)
+);
 
 ALTER TABLE users 
     ADD PRIMARY KEY (id);
